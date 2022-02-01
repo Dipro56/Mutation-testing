@@ -1,0 +1,9 @@
+npm test .\test\basic.test.js
+
+npm test .\test\advance.test.js
+
+npm install -g stryker-cli
+
+stryker init
+
+stryker run
